@@ -120,3 +120,17 @@ decl/cultural_info/location/eremus
 	distance = "Various"
 	economic_power =
 	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN) |!| I think you understand why this is a "mistake".*/
+
+
+decl/cultural_info/location/resobalak
+	name = HOME_SYSTEM_RESOMI_RESOBALAK
+	description = "Со времени первой крупной волны резоми-беженцев, осевших у скреллов, успело смениться уже три поколения, и вы - представитель резоми, родившихся на территории Скреллианской Империи. \
+	 Об Империи вы знаете только из исторических книг и рассказов своих родителей. \
+	 Пусть традиции резоми и не обошли вас полностью, вы являетесь частью культуры скреллов."
+	language = LANGUAGE_RESOMI
+	additional_langs = list(LANGUAGE_SKRELLIAN)
+	capital = "Qerrbalak"
+	ruling_body = "Skrellian Empire"
+	distance = "67 световых лет"
+	economic_power = 1.4
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN, LANGUAGE_HUMAN_EURO)

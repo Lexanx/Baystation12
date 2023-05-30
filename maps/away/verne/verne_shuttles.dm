@@ -8,7 +8,9 @@
 	name = "SRV Venerable Catfish"
 	scanner_name = "SRV Venerable Catfish"
 	shuttle = "SRV Venerable Catfish"
-	scanner_desc = @{"<center><img src = sollogo.png></center><br> <i>Registration</i>: SRV Verne-1 Venerable Catfish, SSE-U17 long range shuttle<br>
+	scanner_desc = @{"
+		<center><img src = sollogo.png></center><br> 
+		<i>Registration</i>: SRV Verne-1 Venerable Catfish, SSE-U17 long range shuttle<br>
 		<i>Transponder</i>: Transmitting (SCI), SCGRV"}
 	contact_class = /decl/ship_contact_class/srv_shuttle
 	fore_dir = NORTH
@@ -21,7 +23,7 @@
 
 /decl/ship_contact_class/srv_shuttle
 	class_short = "SRV"
-	class_long = "Sol Research Vessel Shuttle"
+	class_long = "Research Shuttle"
 	max_ship_mass = 6000
 
 /datum/shuttle/autodock/overmap/verne
@@ -51,7 +53,7 @@
 	landmark_tag = "nav_verne_1"
 
 /obj/effect/shuttle_landmark/nav_verne/nav2
-	name = "CTI Research Vessel Deck 2 Starboard"
+	name = "CTI Research Vessel Deck 2 Fore Starboard"
 	landmark_tag = "nav_verne_2"
 
 /obj/effect/shuttle_landmark/nav_verne/nav3
@@ -65,6 +67,10 @@
 /obj/effect/shuttle_landmark/nav_verne/torch
 	name = "SEV Torch Venerable Catfish Dock"
 	landmark_tag = "nav_verne_5"
+
+/obj/effect/shuttle_landmark/nav_verne/mule
+	name = "CTI Research Vessel FTV Mule Spot"
+	landmark_tag = "nav_verne_mule"
 
 /obj/effect/shuttle_landmark/nav_verne/sierra
 	name = "NSV Sierra Venerable Catfish Dock"
